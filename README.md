@@ -12,7 +12,7 @@ This script automates the process of updating ComfyUI projects and their custom 
 
 ## Installation
 
-1. Clone this repository or download the \`update_comfyui.py\` script.
+1. Clone this repository or download the `update_comfyui.py` script.
 2. Make the script executable:
 
    ```bash
@@ -53,6 +53,39 @@ Force update, discarding local changes:
 Combine options:
 ```bash
 ./update_comfyui.py -v -f
+```
+
+## Windows Instructions
+
+1. Ensure you have Python 3.6+ and Git installed.
+2. Download the `update_comfyui.py` script.
+3. Open Command Prompt and navigate to the directory where the script is located.
+4. Run the script:
+
+   ```cmd
+   python update_comfyui.py [OPTIONS]
+   ```
+
+### Examples for Windows
+
+Update all projects with minimal output:
+```cmd
+python update_comfyui.py
+```
+
+Update with detailed information:
+```cmd
+python update_comfyui.py -v
+```
+
+Force update, discarding local changes:
+```cmd
+python update_comfyui.py -f
+```
+
+Combine options:
+```cmd
+python update_comfyui.py -v -f
 ```
 
 ## Note
